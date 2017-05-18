@@ -1,7 +1,9 @@
 # fangtingprahl
 Calulator challenge of Kaufman Rossin
 User Guide
-
+0 To use the calculator, please use this link http://algebra.chunguangpenisula.com/calculator.html
+  or download the calculator.html, jquery.cookie.js, main.js, Math.min.js to the same forder.
+  Then open calculator.html in Chrome(Cookie may not work in Chrome), or Internet Explorer(Cookie works)
 
 1 Math expressions can be typed in by keyboard, or by clicking graphical buttons on the calculator，
   by clicking enter button, if the expression is mathematically meaningfull, the calculator will evaluate

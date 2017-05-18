@@ -5,7 +5,7 @@ User Guide
 
 0 To use the calculator, please use this link http://algebra.chunguangpenisula.com/calculator.html.
 
-  Or download the calculator.html, jquery.cookie.js, main.js, Math.min.js to the same forder.
+  Or download the calculator.html, jquery.cookie.js, Math.min.js to the same forder.
   Then open calculator.html in Chrome(Cookie may not work in Chrome on local folder), or Internet Explorer(Cookie works 
   on local folder)
 

@@ -108,10 +108,7 @@ input[type="button"]:hover{
 <br>
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
 <script src="jquery.cookie.js"></script>
-<script language="JavaScript">
-
-
-
+<script>
 //set precision
 function setPrecision(prec){
 	math.config({
@@ -343,7 +340,10 @@ lru.prototype.forEachUpdateCookie = function(callback) {
         node = node.prev;
     }
 	var jsonStr = JSON.stringify(lruStr);
-	$.cookie('lruStr', jsonStr);
+
+	var time = 3600 * 1000;
+
+	$.cookie('lruStr', jsonStr, {expires: time});
 }
 
 //save in cookie

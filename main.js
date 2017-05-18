@@ -228,8 +228,10 @@ lru.prototype.forEachUpdateCookie = function(callback) {
 
         node = node.prev;
     }
-	var jsonStr = JSON.stringify(lruStr);
-	$.cookie('lruStr', jsonStr);
+
+    var	time = 3600 * 1000;
+
+	$.cookie('lruStr', jsonStr, {expires: time});
 }
 
 //save in cookie

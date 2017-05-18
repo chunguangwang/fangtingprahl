@@ -1,6 +1,8 @@
 # fangtingprahl
 Calulator challenge of Kaufman Rossin
 User Guide
+
+
 1 Math expressions can be typed in by keyboard, or by clicking graphical buttons on the calculator，
   by clicking enter button, if the expression is mathematically meaningfull, the calculator will evaluate
   the result, and display it in the input text box.

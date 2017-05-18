@@ -176,7 +176,7 @@ function compute(form) {
 			var cell1 = row.insertCell(0);	
 
 			// Add expression to the new cells:
-			cell1.innerHTML = "<input type='button' value='"+JSON.stringify(temp)+"' onclick='addMemory("+JSON.stringify(temp)+");'>";
+			cell1.innerHTML = "<input type='button' value='"+temp+"' onclick='addMemory("+JSON.stringify(temp)+");'>";
 			numExp++;
 		}else{
 			$("#myMemory tr").remove(); 
@@ -298,33 +298,12 @@ lru.prototype.forEachRecordTable = function(callback) {
 		// Insert new cells (<td> elements) at the 1stposition of the "new" <tr> element:
 		var cell1 = row.insertCell(0);	
 		// Add expression to the new cells:
-		cell1.innerHTML = "<input type='button' value='"+node.value+"' onclick='addMemory("+node.value+");'>";
+		cell1.innerHTML = "<input type='button' value='"+JSON.stringify(node.value)+"' onclick='addMemory("+JSON.stringify(node.value)+");'>";
 
         node = node.prev;
     }
 }
 
-
-lru.prototype.forEachRecordTable = function(callback) {
-
-
-	// get lru head node
-    var node = this.tail;
-    while (node) {
-        console.log(node.value);
-		// Create an empty <tr> element and add it to the 1st position of the table:
-       	// Find a <table> element with id="myTable":
-		var table = document.getElementById("myMemory");
-		var row = table.insertRow(0);
-
-		// Insert new cells (<td> elements) at the 1stposition of the "new" <tr> element:
-		var cell1 = row.insertCell(0);	
-		// Add expression to the new cells:
-		cell1.innerHTML = "<input type='button' value='"+node.value+"' onclick='addMemory("+node.value+");'>";
-
-        node = node.prev;
-    }
-}
 
 
 

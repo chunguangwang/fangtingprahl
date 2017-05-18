@@ -3,9 +3,11 @@ Calulator challenge of Kaufman Rossin
 User Guide
 
 
-0 To use the calculator, please use this link http://algebra.chunguangpenisula.com/calculator.html
-  or download the calculator.html, jquery.cookie.js, main.js, Math.min.js to the same forder.
-  Then open calculator.html in Chrome(Cookie may not work in Chrome), or Internet Explorer(Cookie works)
+0 To use the calculator, please use this link http://algebra.chunguangpenisula.com/calculator.html.
+
+  Or download the calculator.html, jquery.cookie.js, main.js, Math.min.js to the same forder.
+  Then open calculator.html in Chrome(Cookie may not work in Chrome on local folder), or Internet Explorer(Cookie works 
+  on local folder)
 
 1 Math expressions can be typed in by keyboard, or by clicking graphical buttons on the calculator，
   by clicking enter button, if the expression is mathematically meaningfull, the calculator will evaluate
@@ -31,8 +33,8 @@ User Guide
 6 By clicking the recorded expressions on the right, the expression will be typed in the display box again,
   user can modify the expression, and do the calculation again
   
-7 Cookie is used to keep the recorded expressions. So when user refresh the calculator or restart the browser, 
-  the recorded expression won't be lost.
+7 Cookie is used to keep the recorded expressions for up to an hour after the browser is closed. So when user refresh
+ the calculator or restart the browser,  the recorded expression won't be lost.
   
   
 All the above features have been tested on Chrome and Internet Explorer, for other browsers, the above features have been fully
